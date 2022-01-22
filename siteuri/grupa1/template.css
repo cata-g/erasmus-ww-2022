@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hero{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url("images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: opacity(20%);
+}
+
+#hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.carousel-image{
+    height: 500px;
+    width: 800px;
+}
+
+section {
+    padding: 20px;
+}
+
+#hero-title{
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #FDE9E0;
+}
+
+#hero-subtitle{
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Fahkwang', sans-serif;
+    color: #FBF2B7;
+    margin-top: -20px;
+}
